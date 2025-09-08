@@ -3,7 +3,10 @@
 An intelligent email security system that automatically analyzes Gmail messages for phishing attempts using AI classification via Ollama and applies labels accordingly.
 
 ## Todo:
-- [ ] add recruiter labeler,
+- [ ] small feature: add recruiter labeler
+- [ ] bigger feature:
+    - [ ] match criteria
+    - [ ] use "trained agent" via librechat, running on the same server as ollama, to write a email response with the context...
 
 ## Features
 
