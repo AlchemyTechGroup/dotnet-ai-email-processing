@@ -1,0 +1,106 @@
+# .NET Build outputs
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.tmp
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Configuration and Secrets (CRITICAL - DO NOT COMMIT)
+.env
+.env.local
+.env.production
+.env.staging
+client_secret*.json
+secrets/
+*.secrets.json
+
+# Token Cache (CRITICAL - DO NOT COMMIT)
+.tokens/
+*.token
+*.refresh_token
+
+# Logs and Debug Files
+*.log
+*.logs
+logs/
+debug.log
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+thumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*~
+*.bak
+*.backup
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# Test Results
+TestResults/
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Build Results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# Local History for Visual Studio
+.localhistory/
+
+# BeatPulse healthcheck temp database
+healthchecksdb
+
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+# Runtime specific
+launchSettings.json
