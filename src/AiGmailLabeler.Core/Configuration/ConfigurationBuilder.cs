@@ -117,7 +117,7 @@ public static class AppConfigurationBuilder
             ["LogLevel"] = "Information",
             ["VerboseMode"] = "false",
             ["BodyMaxKb"] = "128",
-            ["ProcessorOrder"] = "Deduplicate,NoiseFilter,PhishingClassifier,PhishingLabeler",
+            ["ProcessorOrder"] = "Deduplicate,TestKeyword,NoiseFilter,PhishingClassifier,PhishingLabeler",
             ["PROCESSOR_Deduplicate_Enabled"] = "true",
             ["PROCESSOR_NoiseFilter_Enabled"] = "true",
             ["PROCESSOR_PhishingClassifier_Enabled"] = "true",
