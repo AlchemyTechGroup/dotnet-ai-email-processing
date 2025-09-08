@@ -2,6 +2,9 @@
 
 An intelligent email security system that automatically analyzes Gmail messages for phishing attempts using AI classification via Ollama and applies labels accordingly.
 
+## Todo:
+- [ ] add recruiter labeler,
+
 ## Features
 
 - **Desktop OAuth Authentication**: Secure Gmail access with token persistence
